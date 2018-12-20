@@ -3,4 +3,4 @@ software:
   name: consul
   version: 1.4.0
 
-url_download: https://releases.hashicorp.com/{{ software.name }}/{{ software.version }}/{{ software.name }}_{{ software.version }}_linux_amd64.zip
+url_download: https://releases.hashicorp.com/{{ software.name }}/{{ software.version }}/{{ software.name }}_{{ software.version }}_{{ ansible_system | lower }}_amd64.zip
